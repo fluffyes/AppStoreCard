@@ -12,6 +12,9 @@
 		716CEA63221316B30046CB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716CEA61221316B30046CB2D /* Main.storyboard */; };
 		716CEA65221316B30046CB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716CEA64221316B30046CB2D /* Assets.xcassets */; };
 		716CEA68221316B30046CB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716CEA66221316B30046CB2D /* LaunchScreen.storyboard */; };
+		716CEA74221330340046CB2D /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716CEA72221330340046CB2D /* CardTableViewCell.swift */; };
+		716CEA75221330340046CB2D /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716CEA73221330340046CB2D /* CardTableViewCell.xib */; };
+		716CEA7722133DC80046CB2D /* DropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716CEA7622133DC80046CB2D /* DropShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		716CEA64221316B30046CB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		716CEA67221316B30046CB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716CEA69221316B30046CB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716CEA72221330340046CB2D /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		716CEA73221330340046CB2D /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		716CEA7622133DC80046CB2D /* DropShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		716CEA5C221316B30046CB2D /* AppStoreCard */ = {
 			isa = PBXGroup;
 			children = (
+				716CEA6F2213300C0046CB2D /* View */,
 				716CEA5D221316B30046CB2D /* AppDelegate.swift */,
 				716CEA5F221316B30046CB2D /* ViewController.swift */,
 				716CEA61221316B30046CB2D /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				716CEA69221316B30046CB2D /* Info.plist */,
 			);
 			path = AppStoreCard;
+			sourceTree = "<group>";
+		};
+		716CEA6F2213300C0046CB2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				716CEA72221330340046CB2D /* CardTableViewCell.swift */,
+				716CEA73221330340046CB2D /* CardTableViewCell.xib */,
+				716CEA7622133DC80046CB2D /* DropShadowView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,7 @@
 				716CEA68221316B30046CB2D /* LaunchScreen.storyboard in Resources */,
 				716CEA65221316B30046CB2D /* Assets.xcassets in Resources */,
 				716CEA63221316B30046CB2D /* Main.storyboard in Resources */,
+				716CEA75221330340046CB2D /* CardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				716CEA60221316B30046CB2D /* ViewController.swift in Sources */,
+				716CEA7722133DC80046CB2D /* DropShadowView.swift in Sources */,
+				716CEA74221330340046CB2D /* CardTableViewCell.swift in Sources */,
 				716CEA5E221316B30046CB2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HZA79NQ8N6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppStoreCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HZA79NQ8N6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppStoreCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
